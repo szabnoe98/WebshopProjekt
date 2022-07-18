@@ -1,0 +1,7 @@
+{
+  "name": "ProductMobile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

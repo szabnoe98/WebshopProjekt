@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Webshop-WPF", "Webshop-WPF.csproj", "{C6D39D99-AEE2-40FA-BD3A-40131C5A5860}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShopTest", "..\WebShopTest\WebShopTest.csproj", "{F2E997C3-337A-4717-A097-B92D8B01DADB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6D39D99-AEE2-40FA-BD3A-40131C5A5860}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6D39D99-AEE2-40FA-BD3A-40131C5A5860}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6D39D99-AEE2-40FA-BD3A-40131C5A5860}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6D39D99-AEE2-40FA-BD3A-40131C5A5860}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2E997C3-337A-4717-A097-B92D8B01DADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2E997C3-337A-4717-A097-B92D8B01DADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2E997C3-337A-4717-A097-B92D8B01DADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2E997C3-337A-4717-A097-B92D8B01DADB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2A5ED52-8787-4B5B-A16C-B0544015B502}
+	EndGlobalSection
+EndGlobal

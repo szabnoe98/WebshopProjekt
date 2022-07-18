@@ -1,0 +1,187 @@
+{
+	"info": {
+		"_postman_id": "e62753a0-cd70-403c-802e-07063108f8de",
+		"name": "WebshopApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "vasarlo",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"username": "",
+						"password": ""
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": "{{localhost}}/api/vasarlo/10"
+			},
+			"response": []
+		},
+		{
+			"name": "rendeles",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{localhost}}/api/rendeles/8"
+			},
+			"response": []
+		},
+		{
+			"name": "rendelesi_tetelek",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{localhost}}/api/rendelesi_tetelek/9"
+			},
+			"response": []
+		},
+		{
+			"name": "rendeles",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vasarlo_id\": 8,\r\n    \"rendelesi_tetelek\" : [\r\n        {\"cikkszam\": 25478,\r\n        \"mennyiseg\" : 2 }\r\n\r\n        \r\n\r\n        \r\n\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{localhost}}/api/rendeles"
+			},
+			"response": []
+		},
+		{
+			"name": "vasarloLetrehozas",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Felhasznalonev\": \"Nagyb\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{localhost}}/api/vasarlo"
+			},
+			"response": []
+		},
+		{
+			"name": "rendelésMódosítás",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Rendeles_id\": 35\r\n\r\n\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{localhost}}/api/rendeles/"
+			},
+			"response": []
+		},
+		{
+			"name": "akcios_termekDB",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{localhost}}/api/termek/db"
+			},
+			"response": []
+		},
+		{
+			"name": "cikk_kereso",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cikkszam\": 11111\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{localhost}}/api/termek/"
+			},
+			"response": []
+		},
+		{
+			"name": "CikkMódositas",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cikkszam\": 11555\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{localhost}}/api/termek/cikkszam"
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "localhost",
+			"value": "http://localhost:5000"
+		}
+	]
+}

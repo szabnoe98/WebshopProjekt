@@ -1,0 +1,10 @@
+NuGet csomagok telepítése
+A projekthez hozzá kell adni az alábbi NuGet csomagokat.
+• Microsoft.EntityFrameworkCore (5.0.14)
+• Microsoft.EntityFrameworkCore.Tools (5.0.14)
+• BCrypt.Net-Next (4.0.3)
+• Pomelo.EntityFrameworkCore.MySql (5.0.4)
+• Microsoft.Toolkit.Mvvm (7.1.2)
+
+
+

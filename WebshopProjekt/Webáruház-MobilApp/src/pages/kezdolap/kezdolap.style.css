@@ -1,0 +1,60 @@
+.floatingButton {
+  position: fixed;
+  bottom: 20px;
+  right: 38%;
+  /*margin-right: 150px;*/
+  opacity: 95% !important;
+  --background: white;
+  font-family:'Arial', serif !important;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(142, 50, 16);
+}
+.block {
+  background: rgb(255, 235, 227);
+  margin-top: 300px;
+}
+
+.title {
+  display: flex;
+  font-size: 150%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: rgb(142, 50, 16);
+  text-align: center;
+  
+}
+
+.background {
+  background: white !important;
+  margin-top: 38%;
+  padding-top: 30%;
+}
+
+.content {
+  font-family: 'Arial', serif;
+  color:rgb(142, 50, 16);
+  display: flex;
+  text-align: center;
+  font-weight: bolder;
+  background: rgb(233, 179, 159);
+  font-size: 30px;
+}
+
+.nextbutton{
+  opacity: 95% !important;
+  --background: rgb(233, 179, 159);;
+  font-family:'Arial', serif !important;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(142, 50, 16);
+  display: flex;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 350px;
+}
+
+.LoginButton:hover{
+  color: rgb(211, 92, 49);
+}

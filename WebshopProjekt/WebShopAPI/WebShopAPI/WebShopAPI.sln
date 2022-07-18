@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebShopAPI", "WebShopAPI.csproj", "{025C69EC-A225-4257-83D5-7FCDE6E7775A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShopAPI_Teszt", "..\WebShopAPI_Teszt\WebShopAPI_Teszt.csproj", "{5F0F5C07-8075-48BE-A735-57A9AFFE7750}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{025C69EC-A225-4257-83D5-7FCDE6E7775A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{025C69EC-A225-4257-83D5-7FCDE6E7775A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{025C69EC-A225-4257-83D5-7FCDE6E7775A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{025C69EC-A225-4257-83D5-7FCDE6E7775A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F0F5C07-8075-48BE-A735-57A9AFFE7750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F0F5C07-8075-48BE-A735-57A9AFFE7750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F0F5C07-8075-48BE-A735-57A9AFFE7750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F0F5C07-8075-48BE-A735-57A9AFFE7750}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8FEE17F6-0507-4881-BF69-2C7520F2E623}
+	EndGlobalSection
+EndGlobal
